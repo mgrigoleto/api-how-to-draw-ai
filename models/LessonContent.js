@@ -13,8 +13,8 @@ const lessonContentSchema = new mangoose.Schema({
         type: String,
         required: true,
     },
-    imageUrl: {
-        type: String,
+    imageBuffer: {
+        type: Buffer,
         required: false,
     },
     createdAt: {
